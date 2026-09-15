@@ -4,7 +4,6 @@ import "./globals.css";
 import { site, siteConfig } from "@/lib/data";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Preloader from "@/components/Preloader";
 import CustomCursor from "@/components/CustomCursor";
 
 /* ── FONTS ────────────────────────────────────────────────────── */
@@ -124,9 +123,6 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-
-        {/* Cinematic Preloader — first visit only */}
-        <Preloader />
 
         {/* Custom cursor — desktop only */}
         <CustomCursor />

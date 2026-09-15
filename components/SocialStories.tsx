@@ -129,6 +129,7 @@ export default function SocialStories() {
                 src={tile.image}
                 alt={tile.title}
                 loading="lazy"
+                decoding="async"
                 style={{
                   width: "100%",
                   height: "100%",

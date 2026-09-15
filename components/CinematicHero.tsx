@@ -319,6 +319,11 @@ export default function CinematicHero({ onPlayShowreel }: CinematicHeroProps) {
       >
         {heroSlides.map((slide, idx) => {
           const isActive = idx === currentSlide;
+          const isAdjacent =
+            idx === (currentSlide + 1) % heroSlides.length ||
+            idx === (currentSlide - 1 + heroSlides.length) % heroSlides.length;
+          const shouldLoad = isActive || isAdjacent;
+
           return (
             <div
               key={slide.src}
@@ -334,22 +339,25 @@ export default function CinematicHero({ onPlayShowreel }: CinematicHeroProps) {
                 willChange: "opacity",
               }}
             >
-              <img
-                src={slide.src}
-                alt={slide.alt || slide.title}
-                fetchPriority={idx < 2 ? "high" : "auto"}
-                loading={idx < 3 ? "eager" : "lazy"}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                  objectPosition: "center 38%",
-                  filter: "brightness(0.82) contrast(1.08) saturate(1.15)",
-                  transform: isActive ? "scale(1.05)" : "scale(1.0)",
-                  transition: "transform 2.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s ease",
-                  willChange: "transform",
-                }}
-              />
+              {shouldLoad && (
+                <img
+                  src={slide.src}
+                  alt={slide.alt || slide.title}
+                  fetchPriority={isActive ? "high" : "low"}
+                  loading={isActive ? "eager" : "lazy"}
+                  decoding="async"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center 38%",
+                    filter: "brightness(0.82) contrast(1.08) saturate(1.15)",
+                    transform: isActive ? "scale(1.05)" : "scale(1.0)",
+                    transition: "transform 2.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s ease",
+                    willChange: "transform",
+                  }}
+                />
+              )}
             </div>
           );
         })}

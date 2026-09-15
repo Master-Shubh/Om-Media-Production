@@ -261,6 +261,7 @@ export default function ServicesEditorial() {
                       src={srv.image}
                       alt={srv.title}
                       loading="lazy"
+                      decoding="async"
                       style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     />
                   </div>
@@ -399,6 +400,7 @@ export default function ServicesEditorial() {
                 src={srv.image}
                 alt={srv.title}
                 loading={idx === 0 ? "eager" : "lazy"}
+                decoding="async"
                 style={{
                   width: "100%",
                   height: "100%",

@@ -21,12 +21,12 @@ export default function BrandLogo({
   href,
   priority = false
 }: BrandLogoProps) {
-  // Dimensions mapping
+  // Dimensions mapping for round emblem
   const dimensions = {
-    sm: { width: variant === "full" ? 120 : 36, height: variant === "full" ? 48 : 36 },
-    md: { width: variant === "full" ? 160 : 48, height: variant === "full" ? 64 : 48 },
-    lg: { width: variant === "full" ? 220 : 68, height: variant === "full" ? 88 : 68 },
-    xl: { width: variant === "full" ? 280 : 96, height: variant === "full" ? 112 : 96 },
+    sm: { size: 36, width: 36, height: 36, fontTitle: 13, fontSub: 7 },
+    md: { size: 44, width: 44, height: 44, fontTitle: 16, fontSub: 7.5 },
+    lg: { size: 60, width: 60, height: 60, fontTitle: 20, fontSub: 8.5 },
+    xl: { size: 84, width: 84, height: 84, fontTitle: 26, fontSub: 10 },
   }[size];
 
   const content = (
@@ -44,27 +44,63 @@ export default function BrandLogo({
       {variant === "full" && (
         <div
           style={{
-            position: "relative",
-            width: dimensions.width,
-            height: dimensions.height,
             display: "flex",
-            alignItems: "center"
+            alignItems: "center",
+            gap: 12
           }}
         >
-          {/* Real OM Media & Productions high-res official logo asset */}
-          <img
-            src="/logo/om-logo.jpg"
-            alt="OM Media & Productions — Wedding Films · Photography · Production"
+          {/* Redesigned High-Res Round Emblem */}
+          <div
             style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "contain",
-              filter: theme === "light"
-                ? "brightness(1.1) drop-shadow(0 2px 12px rgba(183,154,104,0.3))"
-                : "drop-shadow(0 0 16px rgba(183, 154, 104, 0.25))",
-              borderRadius: 2
+              position: "relative",
+              width: dimensions.size,
+              height: dimensions.size,
+              borderRadius: "50%",
+              overflow: "hidden",
+              border: "1.5px solid rgba(212, 186, 138, 0.45)",
+              boxShadow: "0 4px 16px rgba(0,0,0,0.7), 0 0 14px rgba(183, 154, 104, 0.25)",
+              flexShrink: 0
             }}
-          />
+          >
+            <img
+              src="/logo/om-round-logo.png"
+              alt="OM Media & Productions"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover"
+              }}
+            />
+          </div>
+
+          {/* Typography */}
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+            <span
+              style={{
+                fontFamily: "var(--font-display, Georgia, serif)",
+                fontSize: dimensions.fontTitle,
+                fontWeight: 500,
+                letterSpacing: "0.14em",
+                color: "#FAF9F6",
+                lineHeight: 1.1
+              }}
+            >
+              OM MEDIA
+            </span>
+            <span
+              style={{
+                fontFamily: "var(--font-ui, sans-serif)",
+                fontSize: dimensions.fontSub,
+                fontWeight: 600,
+                letterSpacing: "0.32em",
+                color: "var(--champagne-light, #D4BA8A)",
+                textTransform: "uppercase",
+                marginTop: 2
+              }}
+            >
+              PRODUCTIONS
+            </span>
+          </div>
         </div>
       )}
 
@@ -156,24 +192,26 @@ export default function BrandLogo({
       {variant === "mark" && (
         <div
           style={{
-            width: dimensions.width,
-            height: dimensions.height,
+            width: dimensions.size,
+            height: dimensions.size,
+            borderRadius: "50%",
+            overflow: "hidden",
+            border: "1.5px solid rgba(212, 186, 138, 0.45)",
+            boxShadow: "0 4px 16px rgba(0,0,0,0.7), 0 0 14px rgba(183, 154, 104, 0.25)",
             display: "grid",
-            placeItems: "center"
+            placeItems: "center",
+            flexShrink: 0
           }}
         >
-          <svg
-            width={dimensions.width}
-            height={dimensions.height}
-            viewBox="0 0 48 48"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="24" cy="24" r="22" stroke="rgba(183,154,104,0.3)" strokeWidth="1" />
-            <circle cx="18" cy="27" r="11" stroke="#D4BA8A" strokeWidth="1.5" />
-            <path d="M26 38 V18 L34 30 L42 18 V38" stroke="#D4BA8A" strokeWidth="2" strokeLinecap="round" />
-            <circle cx="34" cy="12" r="1.5" fill="#E05338" />
-          </svg>
+          <img
+            src="/logo/om-round-logo.png"
+            alt="OM"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover"
+            }}
+          />
         </div>
       )}
 

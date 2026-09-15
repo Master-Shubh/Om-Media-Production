@@ -98,6 +98,7 @@ export default function BehindTheFrame() {
                   src={bts.image}
                   alt={bts.title}
                   loading="lazy"
+                  decoding="async"
                   style={{
                     width: "100%",
                     height: "100%",

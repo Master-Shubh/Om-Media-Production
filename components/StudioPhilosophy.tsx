@@ -39,6 +39,7 @@ export default function StudioPhilosophy() {
               src={mediaAssets.philosophyEditorial}
               alt="OM Media & Productions — Varanasi wedding story"
               loading="lazy"
+              decoding="async"
               style={{
                 width: "100%",
                 height: "100%",

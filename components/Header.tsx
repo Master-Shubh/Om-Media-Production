@@ -73,26 +73,65 @@ export default function Header() {
           textDecoration: "none"
         }}
       >
-        {/* Full official logo badge */}
+        {/* Full official round logo badge */}
         <div
           className="brand-logo-full"
           style={{
             display: "flex",
             alignItems: "center",
+            gap: 12,
             height: 44,
             transition: "opacity 0.3s ease, transform 0.3s ease"
           }}
         >
-          <img
-            src="/logo/om-logo.jpg"
-            alt="OM Media & Productions"
+          <div
             style={{
+              width: 40,
               height: 40,
-              width: "auto",
-              objectFit: "contain",
-              filter: "drop-shadow(0 0 12px rgba(183,154,104,0.3))"
+              borderRadius: "50%",
+              overflow: "hidden",
+              border: "1.5px solid rgba(212, 186, 138, 0.5)",
+              boxShadow: "0 3px 12px rgba(0, 0, 0, 0.7), 0 0 14px rgba(183, 154, 104, 0.3)",
+              flexShrink: 0
             }}
-          />
+          >
+            <img
+              src="/logo/om-round-logo.png"
+              alt="OM Media & Productions"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover"
+              }}
+            />
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+            <span
+              style={{
+                fontFamily: "var(--font-display, Georgia, serif)",
+                fontSize: 15,
+                fontWeight: 500,
+                letterSpacing: "0.14em",
+                color: "#FAF9F6",
+                lineHeight: 1.1
+              }}
+            >
+              OM MEDIA
+            </span>
+            <span
+              style={{
+                fontFamily: "var(--font-ui, sans-serif)",
+                fontSize: 7.5,
+                fontWeight: 600,
+                letterSpacing: "0.32em",
+                color: "var(--champagne-light, #D4BA8A)",
+                textTransform: "uppercase",
+                marginTop: 2
+              }}
+            >
+              PRODUCTIONS
+            </span>
+          </div>
         </div>
 
         {/* Monogram — revealed smoothly on scroll */}

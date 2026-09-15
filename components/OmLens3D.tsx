@@ -137,11 +137,11 @@ export default function OmLens3D() {
           {/* Suspended OM Monogram Core */}
           <div className="om-lens-core">
             <img
-              src="/logo/om-logo.jpg"
+              src="/logo/om-round-logo.png"
               alt="OM Monogram"
               width={64}
               height={64}
-              style={{ objectFit: "contain", borderRadius: 2 }}
+              style={{ objectFit: "cover", borderRadius: "50%" }}
             />
           </div>
         </div>
