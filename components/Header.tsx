@@ -79,19 +79,18 @@ export default function Header() {
           style={{
             display: "flex",
             alignItems: "center",
-            gap: 12,
-            height: 44,
-            transition: "opacity 0.3s ease, transform 0.3s ease"
+            gap: 14,
+            height: "100%"
           }}
         >
           <div
             style={{
-              width: 40,
-              height: 40,
+              width: "clamp(46px, 5vw, 56px)",
+              height: "clamp(46px, 5vw, 56px)",
               borderRadius: "50%",
               overflow: "hidden",
-              border: "1.5px solid rgba(212, 186, 138, 0.5)",
-              boxShadow: "0 3px 12px rgba(0, 0, 0, 0.7), 0 0 14px rgba(183, 154, 104, 0.3)",
+              border: "2px solid rgba(212, 186, 138, 0.55)",
+              boxShadow: "0 4px 20px rgba(0, 0, 0, 0.7), 0 0 16px rgba(183, 154, 104, 0.35)",
               flexShrink: 0
             }}
           >
@@ -109,8 +108,8 @@ export default function Header() {
             <span
               style={{
                 fontFamily: "var(--font-display, Georgia, serif)",
-                fontSize: 15,
-                fontWeight: 500,
+                fontSize: "clamp(16px, 1.8vw, 19px)",
+                fontWeight: 600,
                 letterSpacing: "0.14em",
                 color: "#FAF9F6",
                 lineHeight: 1.1
@@ -121,9 +120,9 @@ export default function Header() {
             <span
               style={{
                 fontFamily: "var(--font-ui, sans-serif)",
-                fontSize: 7.5,
+                fontSize: "8.5px",
                 fontWeight: 600,
-                letterSpacing: "0.32em",
+                letterSpacing: "0.34em",
                 color: "var(--champagne-light, #D4BA8A)",
                 textTransform: "uppercase",
                 marginTop: 2
@@ -132,40 +131,6 @@ export default function Header() {
               PRODUCTIONS
             </span>
           </div>
-        </div>
-
-        {/* Monogram — revealed smoothly on scroll */}
-        <div
-          className="brand-monogram"
-          aria-hidden="true"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 6
-          }}
-        >
-          <span
-            style={{
-              fontFamily: "var(--font-display, Georgia, serif)",
-              fontSize: 20,
-              fontWeight: 400,
-              letterSpacing: "0.1em",
-              color: "#FAF9F6"
-            }}
-          >
-            OM
-          </span>
-          <span
-            style={{
-              fontFamily: "var(--font-ui, sans-serif)",
-              fontSize: 8,
-              letterSpacing: "0.26em",
-              color: "var(--champagne-gold, #B79A68)",
-              textTransform: "uppercase"
-            }}
-          >
-            STUDIO
-          </span>
         </div>
       </Link>
 

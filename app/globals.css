@@ -316,7 +316,7 @@ p, span, a, button, label, .label {
 
 /* ── HEADER (LEVEL 01 GLASS BAR) ─────────────────────────────── */
 .header {
-  height: 76px;
+  height: 84px;
   position: fixed;
   top: 0;
   left: 0;
@@ -328,6 +328,7 @@ p, span, a, button, label, .label {
   padding: 0 var(--gutter);
   background: transparent;
   transition:
+    height var(--dur-default) var(--ease-cinematic),
     background var(--dur-default) var(--ease-cinematic),
     border-color var(--dur-default) var(--ease-cinematic),
     backdrop-filter var(--dur-default) var(--ease-cinematic),
@@ -336,7 +337,8 @@ p, span, a, button, label, .label {
 }
 
 .header.scrolled {
-  background: rgba(8, 8, 8, 0.82);
+  height: 74px;
+  background: rgba(8, 8, 8, 0.88);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-color: rgba(183, 154, 104, 0.16);
@@ -346,28 +348,19 @@ p, span, a, button, label, .label {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .brand-logo-full {
-  height: 44px;
-  width: auto;
-  object-fit: contain;
-  transition: opacity var(--dur-default) var(--ease-cinematic), transform var(--dur-default) var(--ease-cinematic);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: transform var(--dur-default) var(--ease-cinematic);
 }
-.brand-monogram {
-  font-family: var(--font-display);
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  color: var(--ivory);
-  opacity: 0;
-  transform: translateY(4px);
-  transition: opacity var(--dur-default) var(--ease-cinematic), transform var(--dur-default) var(--ease-cinematic);
-  position: absolute;
+.header.scrolled .brand-logo-full {
+  transform: scale(0.92);
 }
-.header.scrolled .brand-logo-full { opacity: 0; transform: translateY(-4px); pointer-events: none; }
-.header.scrolled .brand-monogram  { opacity: 1; transform: translateY(0); }
 
 .nav {
   display: flex;
@@ -520,18 +513,21 @@ p, span, a, button, label, .label {
 }
 
 .om-lens-core {
-  width: 96px;
-  height: 96px;
+  width: 120px;
+  height: 120px;
   display: grid;
   place-items: center;
   position: relative;
-  filter: drop-shadow(0 0 18px rgba(183, 154, 104, 0.5));
+  filter: drop-shadow(0 0 24px rgba(183, 154, 104, 0.6));
 }
 
 .om-lens-core img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1.5px solid rgba(212, 186, 138, 0.5);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.8), 0 0 16px rgba(183, 154, 104, 0.35);
 }
 
 .om-lens-beam {

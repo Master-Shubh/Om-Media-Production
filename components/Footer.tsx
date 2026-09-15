@@ -62,7 +62,7 @@ export default function Footer() {
         >
           {/* Column 1: Brand & Philosophy */}
           <div style={{ maxWidth: 360 }}>
-            <BrandLogo variant="full" size="md" />
+            <BrandLogo variant="full" size="lg" />
             <p
               style={{
                 fontFamily: "var(--font-display, Georgia, serif)",

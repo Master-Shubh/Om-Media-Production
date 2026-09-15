@@ -23,10 +23,10 @@ export default function BrandLogo({
 }: BrandLogoProps) {
   // Dimensions mapping for round emblem
   const dimensions = {
-    sm: { size: 36, width: 36, height: 36, fontTitle: 13, fontSub: 7 },
-    md: { size: 44, width: 44, height: 44, fontTitle: 16, fontSub: 7.5 },
-    lg: { size: 60, width: 60, height: 60, fontTitle: 20, fontSub: 8.5 },
-    xl: { size: 84, width: 84, height: 84, fontTitle: 26, fontSub: 10 },
+    sm: { size: 48, width: 48, height: 48, fontTitle: 15, fontSub: 8 },
+    md: { size: 64, width: 64, height: 64, fontTitle: 20, fontSub: 9 },
+    lg: { size: 88, width: 88, height: 88, fontTitle: 26, fontSub: 11 },
+    xl: { size: 120, width: 120, height: 120, fontTitle: 34, fontSub: 14 },
   }[size];
 
   const content = (

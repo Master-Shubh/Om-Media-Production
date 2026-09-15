@@ -139,8 +139,8 @@ export default function OmLens3D() {
             <img
               src="/logo/om-round-logo.png"
               alt="OM Monogram"
-              width={64}
-              height={64}
+              width={90}
+              height={90}
               style={{ objectFit: "cover", borderRadius: "50%" }}
             />
           </div>
