@@ -16,7 +16,7 @@ export default function StudioPhilosophy() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
           gap: "clamp(40px, 6vw, 90px)",
           alignItems: "center",
         }}
@@ -162,37 +162,6 @@ export default function StudioPhilosophy() {
 
             {/* Narrative Paragraphs */}
             <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-              <p
-                className="hindi-text"
-                style={{
-                  fontFamily: "var(--font-hindi, 'Nirmala UI', 'Mangal', sans-serif)",
-                  fontSize: "14.5px",
-                  lineHeight: 1.95,
-                  color: "rgba(244, 240, 232, 0.88)",
-                  margin: 0,
-                  fontWeight: 400,
-                  letterSpacing: "0.025em",
-                  wordSpacing: "0.18em",
-                }}
-              >
-                हमारी कलात्मक दृष्टि काशी की पुरातन आध्यात्मिक गरिमा से प्रेरित है—जहाँ बलुआ पत्थर के घाटों पर सुबह की पहली किरणें बिखरती हैं, गूंजते मंदिर के घंटों में दिव्यता का वास होता है, और बनारसी रेशम की चमक में पीढ़ियों की बेजोड़ कारीगरी झलकती है।
-              </p>
-
-              <p
-                className="hindi-text"
-                style={{
-                  fontFamily: "var(--font-hindi, 'Nirmala UI', 'Mangal', sans-serif)",
-                  fontSize: "14.5px",
-                  lineHeight: 1.95,
-                  color: "rgba(244, 240, 232, 0.88)",
-                  margin: 0,
-                  fontWeight: 400,
-                  letterSpacing: "0.025em",
-                  wordSpacing: "0.18em",
-                }}
-              >
-                परंतु, हम केवल पारंपरिक वीडियोग्राफर नहीं हैं। OM Media &amp; Productions एक उच्चस्तरीय फ़िल्म स्टूडियो के रूप में कार्य करता है: जहाँ मल्टी-कैमरा सिनेमा रिग्स, प्राइम पोर्ट्रेट लेंस, 32ft भारी क्रेन शॉट्स और मल्टी-ट्रैक स्टूडियो ऑडियो के माध्यम से हम भारतीय विवाहों की सहज खुशियों, पवित्र वैदिक फेरों और परिवार के भावुक अश्रुओं को अमर सिनेमाई धरोहर में संजोते हैं।
-              </p>
 
               {/* Cultural Touchpoints Tags */}
               <div
@@ -231,25 +200,7 @@ export default function StudioPhilosophy() {
                 ))}
               </div>
 
-              {/* Link to Meet the Studio / Founder */}
-              <div style={{ marginTop: 24 }}>
-                <Link
-                  href="/about"
-                  className="text-link"
-                  aria-label="Read our full studio story and production philosophy"
-                >
-                  DISCOVER OUR STORY · हमारी कहानी जानें
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-                    <path
-                      d="M2 12L12 2M12 2H5M12 2V9"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </Link>
-              </div>
+
             </div>
           </div>
         </Reveal>

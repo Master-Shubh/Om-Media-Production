@@ -100,6 +100,11 @@ body {
   cursor: none;
 }
 
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 @media (pointer: coarse), (max-width: 900px) {
   body {
     cursor: auto !important;
@@ -1601,6 +1606,25 @@ p, span, a, button, label, .label {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* ── PORTFOLIO EDITORIAL GRID ── */
+.col-span-12 { grid-column: span 12 / span 12; }
+@media (min-width: 768px) {
+  .md\:col-span-4 { grid-column: span 4 / span 4; }
+  .md\:col-span-5 { grid-column: span 5 / span 5; }
+  .md\:col-span-6 { grid-column: span 6 / span 6; }
+  .md\:col-span-7 { grid-column: span 7 / span 7; }
+  .md\:col-span-8 { grid-column: span 8 / span 8; }
+}
+@media (max-width: 767px) {
+  .portfolio-editorial-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .portfolio-card {
+    grid-column: 1 / -1 !important;
+    min-height: 260px !important;
+  }
+}
+
 /* ── RESPONSIVE RULES ────────────────────────────────────────── */
 @media (max-width: 1100px) {
   .nav { gap: 22px; }
@@ -1613,6 +1637,9 @@ p, span, a, button, label, .label {
 
 @media (max-width: 900px) {
   .header { padding: 0 20px; }
+  .services-editorial-grid { grid-template-columns: 1fr !important; }
+  .service-row-desktop { display: none !important; }
+  .service-row-mobile { display: block !important; }
   .nav { display: none; }
   .nav.open {
     display: flex;
@@ -1659,6 +1686,9 @@ p, span, a, button, label, .label {
 
 @media (max-width: 600px) {
   :root { --gutter: var(--gutter-sm); }
+  .philosophy-section > div { grid-template-columns: 1fr !important; }
+  .cinematic-cta-wrap { padding: clamp(60px, 8vw, 100px) 24px !important; }
+  .studio-proof-section > div { grid-template-columns: 1fr !important; }
   body::before { opacity: 0.015; }
   .header { height: 68px; }
   .section { padding: 72px var(--gutter-sm); }
@@ -1708,6 +1738,14 @@ p, span, a, button, label, .label {
   .metric-item { flex: none; width: 100%; border-right: none; border-bottom: 1px solid var(--line); }
   .metric-item:last-child { border-bottom: none; }
   .om-lens-container { width: 220px; height: 220px; margin: 15px auto 0; }
+}
+
+@media (max-width: 400px) {
+  .header { height: 62px; padding: 0 14px; }
+  .brand-logo-full .brand-text { display: none; }
+  .hero-slide-badge { display: none !important; }
+  .mobile-floating-dock { gap: 4px; }
+  .mobile-floating-dock span { font-size: 9.5px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -10,7 +10,7 @@ export default function CinematicCTA() {
       className="cinematic-cta-wrap"
       style={{
         position: "relative",
-        padding: "160px 24px",
+        padding: "clamp(80px, 10vw, 160px) 24px",
         backgroundColor: "#060607",
         overflow: "hidden",
         textAlign: "center"
@@ -96,18 +96,7 @@ export default function CinematicCTA() {
           </span>
         </h2>
 
-        <p
-          style={{
-            fontFamily: "var(--font-body, Georgia, serif)",
-            fontSize: "clamp(15px, 1.8vw, 18px)",
-            color: "rgba(244, 240, 232, 0.8)",
-            lineHeight: 1.7,
-            maxWidth: 640,
-            margin: "0 auto 44px auto"
-          }}
-        >
-          Every glance, every sacred ritual, every tear, and every unscripted laugh. We preserve the essence of your celebration across Varanasi, Uttar Pradesh, and throughout India.
-        </p>
+
 
         {/* Dual Actions */}
         <div

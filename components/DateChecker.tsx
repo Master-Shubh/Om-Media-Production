@@ -26,7 +26,7 @@ export default function DateChecker() {
     <section
       className="date-checker-section"
       style={{
-        padding: "100px 24px",
+        padding: "clamp(60px, 8vw, 100px) 24px",
         backgroundColor: "var(--bg-black, #080808)",
         position: "relative",
         overflow: "hidden"
@@ -103,34 +103,6 @@ export default function DateChecker() {
                 शुभ विवाह तिथि जांचें
               </span>
             </h2>
-            <p
-              style={{
-                fontFamily: "var(--font-body, Georgia, serif)",
-                fontSize: 15,
-                color: "var(--warm-ivory-dim, rgba(244, 240, 232, 0.7))",
-                maxWidth: 620,
-                margin: "0 auto",
-                lineHeight: 1.6
-              }}
-            >
-              To maintain our uncompromising cinematic standards, OM Media accepts only a curated number of weddings each year across Uttar Pradesh and India.
-              <span
-                className="hindi-text"
-                style={{
-                  display: "block",
-                  fontSize: 13.5,
-                  color: "var(--champagne)",
-                  marginTop: 8,
-                  fontWeight: 400,
-                  fontFamily: "var(--font-hindi, 'Nirmala UI', 'Mangal', sans-serif)",
-                  letterSpacing: "0.03em",
-                  wordSpacing: "0.2em",
-                  lineHeight: 1.6,
-                }}
-              >
-                उत्कृष्ट सिनेमाई स्तर बनाए रखने हेतु हम प्रत्येक सीजन में केवल सीमित व चुनिंदा विवाह ही स्वीकार करते हैं।
-              </span>
-            </p>
           </div>
 
           {!checked ? (

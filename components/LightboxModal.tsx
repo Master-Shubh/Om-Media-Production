@@ -229,6 +229,7 @@ export default function LightboxModal({
             <img
               src={currentItem.image}
               alt={currentItem.title}
+              decoding="async"
               style={{
                 maxHeight: "75vh",
                 maxWidth: "85vw",

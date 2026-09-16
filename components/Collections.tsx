@@ -58,20 +58,6 @@ export default function Collections() {
             >
               Collections of <i>Distinction.</i>
             </h2>
-
-            <p
-              style={{
-                fontFamily: "var(--font-ui, sans-serif)",
-                fontSize: "14px",
-                lineHeight: 1.8,
-                color: "var(--muted)",
-                maxWidth: 600,
-                margin: 0,
-                fontWeight: 300,
-              }}
-            >
-              Each collection is designed with explicit crew counts, dedicated cinema directors, transparent deliverables, and handcrafted physical keepsakes.
-            </p>
           </div>
 
           <button
@@ -90,7 +76,7 @@ export default function Collections() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
           gap: "24px",
           alignItems: "stretch",
         }}

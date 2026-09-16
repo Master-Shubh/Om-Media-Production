@@ -115,18 +115,7 @@ export default function VaranasiSection() {
               </span>
             </h2>
 
-            <p
-              style={{
-                fontFamily: "var(--font-ui, sans-serif)",
-                fontSize: "14px",
-                lineHeight: 1.8,
-                color: "rgba(244, 240, 232, 0.75)",
-                margin: "0 auto",
-                fontWeight: 300,
-              }}
-            >
-              From the spiritual sunrise ghats of Kashi and palatial courtyards of Awadh to the sacred banks of the Saryu in Ayodhya and monumental NCR lawns—we bring cinema-grade storytelling to celebrations across our home state, and to destination weddings pan-India.
-            </p>
+
           </div>
         </Reveal>
 

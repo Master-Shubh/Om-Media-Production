@@ -47,19 +47,7 @@ export default function BehindTheFrame() {
               >
                 Behind the <i>Frame.</i>
               </h2>
-              <p
-                style={{
-                  fontFamily: "var(--font-ui, sans-serif)",
-                  fontSize: "14px",
-                  lineHeight: 1.8,
-                  color: "var(--muted)",
-                  maxWidth: 560,
-                  margin: 0,
-                  fontWeight: 300,
-                }}
-              >
-                How our cinematographers, sound engineers, and colorists coordinate in unison to turn raw sacred ceremonies into generational cinema.
-              </p>
+
             </div>
           </div>
         </div>
@@ -69,7 +57,7 @@ export default function BehindTheFrame() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))",
           gap: "24px",
         }}
       >

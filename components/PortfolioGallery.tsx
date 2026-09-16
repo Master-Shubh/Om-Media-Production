@@ -82,7 +82,7 @@ export default function PortfolioGallery({ isHomepage = false }: PortfolioGaller
               fontWeight: 300,
             }}
           >
-            An editorial tapestry of traditional rituals, candid glances, royal regalia, and Varanasi riverfront celebrations. Filter by ceremonial chapter below.
+            Traditional rituals, candid emotions, and Varanasi riverfront celebrations.
           </p>
         </div>
       </Reveal>
@@ -184,6 +184,7 @@ export default function PortfolioGallery({ isHomepage = false }: PortfolioGaller
                 src={item.image}
                 alt={item.title}
                 loading="lazy"
+                decoding="async"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -304,9 +305,6 @@ export default function PortfolioGallery({ isHomepage = false }: PortfolioGaller
               gap: 16,
             }}
           >
-            <span style={{ fontSize: "13px", color: "var(--muted)", fontWeight: 300 }}>
-              Viewing a curated selection. Explore all 17 ceremony categories in our full gallery.
-            </span>
             <Link href="/portfolio" className="btn outline">
               VIEW COMPLETE PORTFOLIO ARCHIVE →
             </Link>

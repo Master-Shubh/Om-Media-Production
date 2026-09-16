@@ -181,7 +181,7 @@ export default function Header() {
           id="mobile-nav"
           style={{
             position: "fixed",
-            top: 76,
+            top: 0,
             left: 0,
             right: 0,
             bottom: 0,

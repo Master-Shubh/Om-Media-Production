@@ -16,8 +16,8 @@ export default function Footer() {
         position: "relative",
         overflow: "hidden",
         borderTop: "1px solid rgba(183, 154, 104, 0.16)",
-        paddingTop: 100,
-        paddingBottom: 40
+        paddingTop: "clamp(60px, 8vw, 100px)",
+        paddingBottom: 100
       }}
       aria-label="OM Media & Productions footer"
     >
@@ -77,17 +77,6 @@ export default function Footer() {
               <span style={{ display: "block", fontSize: 13, color: "var(--champagne-gold, #B79A68)", marginTop: 4 }}>
                 अनमोल पलों को अमर कलाकृतियों में ढालते हुए।
               </span>
-            </p>
-            <p
-              style={{
-                fontFamily: "var(--font-ui, sans-serif)",
-                fontSize: 12,
-                color: "rgba(244, 240, 232, 0.55)",
-                lineHeight: 1.7,
-                marginBottom: 24
-              }}
-            >
-              Rooted in Varanasi, Uttar Pradesh. Creating cinematic wedding films, editorial photography, and grand live production experiences across India.
             </p>
 
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>

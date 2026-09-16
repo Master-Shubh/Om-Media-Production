@@ -147,7 +147,7 @@ export const primaryServices: ServiceDepartment[] = [
     title: "WEDDING PHOTOGRAPHY",
     shortTitle: "Photography",
     tagline: "Editorial bridal portraits, raw candid emotions & timeless ritual coverage",
-    description: "We deploy a specialized dual-squad photography system: dedicated candid photographers who unobtrusively capture genuine tears, laughter, and unscripted glances, alongside senior traditional portrait masters who document family formals and Vedic rituals with timeless dignity.",
+    description: "Dual-squad system: dedicated candid photographers for raw emotions, alongside portrait masters for Vedic rituals and family formals.",
     secondaryTags: ["Candid Photography", "Traditional Photography", "Editorial Bridal", "Ritual Formals", "Fine-Art Albums"],
     equipmentHighlight: "Dual-slot full-frame sensors, fast f/1.2 & f/1.4 prime portrait glass, off-camera creative lighting kits",
     keyDeliverables: [
@@ -177,7 +177,7 @@ export const primaryServices: ServiceDepartment[] = [
     title: "CINEMATIC WEDDING FILMS",
     shortTitle: "Cinematic Films",
     tagline: "Feature-film aesthetics, narrative storytelling & calibrated color grading",
-    description: "We treat wedding filmmaking not as mere video documentation, but as cinema. Through multi-angle cinema camera rigs, motorized gimbal movement, aerial perspectives, and multi-track field audio recording of sacred mantras and vows, we craft emotion-packed feature films.",
+    description: "Multi-angle cinema rigs, motorized gimbals, aerial perspectives, and multi-track audio crafting emotion-packed feature films.",
     secondaryTags: ["Cinematography", "Highlight Films", "Teasers & Reels", "4K Color Grading", "Multi-Track Audio"],
     equipmentHighlight: "Sony Cinema Line rigs (FX series), motorized 3-axis gimbals, prime cinema lenses, wireless multi-track audio lavaliers",
     keyDeliverables: [
@@ -207,7 +207,7 @@ export const primaryServices: ServiceDepartment[] = [
     title: "PRE-WEDDING STORIES",
     shortTitle: "Pre-Wedding",
     tagline: "Poetic narratives set against the ancient Ghats and royal fortresses of India",
-    description: "From misty sunrise boat rides on the sacred Ganga at Assi Ghat to dramatic sandstone fort courtyards, our pre-wedding narratives are thoughtfully scripted and directed to celebrate your personal chemistry and authentic connection.",
+    description: "Thoughtfully directed narratives from misty Ganga sunrise boats to dramatic sandstone fort courtyards celebrating your authentic chemistry.",
     secondaryTags: ["Concept Direction", "Ghats & Riverfront", "Historic Forts", "Story Teasers", "Fine-Art Portraits"],
     equipmentHighlight: "Ultra-compact cinema rigs, 4K aerial drones, natural diffusion filters for morning golden hour",
     keyDeliverables: [
@@ -236,7 +236,7 @@ export const primaryServices: ServiceDepartment[] = [
     title: "LIVE PRODUCTION",
     shortTitle: "Live Production",
     tagline: "Hollywood-scale Jimmy Jib crane, live multi-cam switching & massive LED walls",
-    description: "This is where OM Media stands uniquely apart. We possess the full hardware infrastructure of an authentic broadcast production house—heavy-duty 32ft crane setups for sweeping baraat entries, high-definition stage LED walls, and low-latency global live streaming.",
+    description: "Full in-house broadcast infrastructure: 32ft crane, multi-cam vision switching, stage LED walls, and global live streaming.",
     secondaryTags: ["Jimmy Jib Crane", "Live Broadcasting", "LED Stage Walls", "Multi-Cam Vision Switcher", "Drone Units"],
     equipmentHighlight: "32-foot Jimmy Jib crane with motorized pan-tilt head, multi-channel SDI/HDMI vision mixers, outdoor P3/P4 LED wall panels",
     keyDeliverables: [
@@ -358,63 +358,63 @@ export const productionCapabilities: CapabilityItem[] = [
     number: "01",
     title: "Multi-Camera Cinema Rigs",
     highlight: "Sony Cinema Line & High-Speed Prime Glass",
-    description: "We deploy multi-camera cinema configurations using fast cinema primes (f/1.2 & f/1.4) to achieve true shallow depth of field, creamy bokeh, and high dynamic range in low-light night rituals.",
+    description: "Multi-camera cinema setups with fast f/1.2 primes for true shallow depth and creamy bokeh in low-light rituals.",
     tag: "Cinema Glass"
   },
   {
     number: "02",
     title: "Heavy-Duty Jimmy Jib Crane",
     highlight: "32-Foot Monumental Overhead Motion",
-    description: "A Hollywood-standard jib crane with a 360-degree motorized Dutch-head. Captures sweeping overhead bird's-eye views of grand baraat entries and monumental jaimala stages.",
+    description: "32ft crane with 360° motorized head for sweeping overhead views of grand baraat entries and jaimala stages.",
     tag: "Hollywood Crane"
   },
   {
     number: "03",
     title: "Dual-Pilot 4K Aerial Drones",
     highlight: "Licensed Day & Twilight Flight Unit",
-    description: "Licensed drone pilots provide dramatic aerial establishment shots of heritage ghats, fort ramparts, and open-air lawns without compromising guest safety.",
+    description: "Licensed drone pilots for dramatic aerial shots of heritage ghats, forts, and open-air lawns.",
     tag: "4K Aerial Unit"
   },
   {
     number: "04",
     title: "3-Axis Motorized Gimbals",
     highlight: "Fluid Dynamic Cinematic Tracking",
-    description: "Ultra-smooth stabilization rigs that follow the couple smoothly through palace corridors, energetic sangeet dances, and grand entries without camera jitter.",
+    description: "Ultra-smooth stabilization for fluid tracking through palace corridors and energetic sangeet dances.",
     tag: "Gimbal Stabilization"
   },
   {
     number: "05",
     title: "Multi-Track Field Audio",
     highlight: "Studio-Grade Lavalier & Ambient Recording",
-    description: "We mic the groom and panditji with discrete wireless transmitters and deploy stereo ambient microphones to capture Vedic chants, family laughter, and emotional vows with crisp studio clarity.",
+    description: "Discrete wireless lavaliers and stereo ambient mics capturing mantras, vows, and laughter with studio clarity.",
     tag: "Acoustic Fidelity"
   },
   {
     number: "06",
     title: "Live Vision Switching & Broadcast",
     highlight: "Multi-Channel SDI Real-Time Mixing",
-    description: "On-site multi-camera video switchers route live program feeds to on-stage LED walls and stream private low-latency broadcasts to overseas family across the world.",
+    description: "Multi-camera video switchers routing live feeds to on-stage LED walls and private global streams.",
     tag: "Live Broadcast"
   },
   {
     number: "07",
     title: "High-Definition Stage LED Walls",
     highlight: "Outdoor High-Brightness P3/P4 Displays",
-    description: "Massive outdoor visual displays ensuring all 1,000+ attendees have an intimate front-row view of the sacred varmala and stage ceremonies.",
+    description: "Massive outdoor displays ensuring all 1,000+ guests have a front-row view of sacred ceremonies.",
     tag: "Stage Visuals"
   },
   {
     number: "08",
     title: "Same-Day Editing Suites",
     highlight: "On-Location Rapid Production Unit",
-    description: "High-spec mobile editing workstations capable of cutting, color-grading, and scoring a cinematic teaser within hours to premiere on the reception screen.",
+    description: "Mobile editing workstations cutting and color-grading teasers within hours for reception premieres.",
     tag: "Same-Day Edit"
   },
   {
     number: "09",
     title: "Handcrafted Heirloom Press",
     highlight: "Archival Lay-Flat Italian Leather Binding",
-    description: "Individual typography, breathing space, and archival silver-halide photographic paper pressed and bound into heirloom albums designed to endure for generations.",
+    description: "Archival silver-halide paper pressed into Italian leather-bound heirloom albums built to endure generations.",
     tag: "Heirloom Press"
   }
 ];
@@ -435,7 +435,7 @@ export const btsStories: BtsStory[] = [
     step: "01",
     title: "The Cinema Rigs on Location",
     discipline: "PRODUCTION RIGS",
-    description: "Every ceremony is planned with precise camera positions, prime focal lengths, and wireless monitoring so our directors never obstruct sacred moments.",
+    description: "Precise camera positions and prime focal lengths planned so directors never obstruct sacred moments.",
     image: "/images/live-production-crane.jpg"
   },
   {
@@ -443,7 +443,7 @@ export const btsStories: BtsStory[] = [
     step: "02",
     title: "Sound Is Half The Film",
     discipline: "FIELD ACOUSTICS",
-    description: "We capture sacred Vedic mantras, shehnai vibrations, and whispered emotional promises using dedicated multi-track audio lavaliers.",
+    description: "Dedicated multi-track lavaliers capturing Vedic mantras, shehnai, and emotional vows.",
     image: "/images/sacred-pheras.jpg"
   },
   {
@@ -451,7 +451,7 @@ export const btsStories: BtsStory[] = [
     step: "03",
     title: "The Color Grading Suite",
     discipline: "POST-PRODUCTION LAB",
-    description: "In our editing lab, every shot is individually balanced and color-graded on calibrated reference displays for rich, timeless cinematic skin tones.",
+    description: "Every shot individually balanced on calibrated displays for rich, timeless skin tones.",
     image: "/images/ganga-couple.jpg"
   },
   {
@@ -459,7 +459,7 @@ export const btsStories: BtsStory[] = [
     step: "04",
     title: "Live Multi-Cam Switching",
     discipline: "STAGE BROADCAST DECK",
-    description: "Our technical engineers switch camera angles live, projecting high-definition feeds onto massive LED walls for amphitheater wedding crowds.",
+    description: "Live camera switching projected onto massive LED walls for amphitheater wedding crowds.",
     image: "/images/sangeet-dance.jpg"
   }
 ];
@@ -499,28 +499,28 @@ export const heritageVenues: HeritageVenue[] = [
     name: "Sandstone Ganga Ghats",
     city: "Varanasi",
     category: "SACRED RIVERFRONT",
-    description: "Centuries-old stone steps, early morning Ganga mist, and evening floating diyas create an incomparable visual atmosphere for ceremonies and pre-wedding films.",
+    description: "Ancient stone steps, morning Ganga mist, and floating diyas creating an incomparable ceremony atmosphere.",
     image: "/images/varanasi-dawn.jpg"
   },
   {
     name: "BrijRama & River Palaces",
     city: "Varanasi",
     category: "PALATIAL RIVERFRONT",
-    description: "Historical Maratha architecture directly on the riverfront, featuring royal boat processions, carved sandstone atriums, and grand reception courtyards.",
+    description: "Maratha riverfront architecture with royal boat processions and carved sandstone reception courtyards.",
     image: "/images/hero-wedding.jpg"
   },
   {
     name: "Chunar & Ramnagar Fortresses",
     city: "Ramnagar / Chunar",
     category: "HISTORIC FORTRESS",
-    description: "Towering 18th-century stone ramparts, dramatic sunset horizons, and monumental gates ideal for 32ft jib-crane sweeps and royal baraat entries.",
+    description: "18th-century stone ramparts and dramatic sunset horizons ideal for crane sweeps and royal entries.",
     image: "/images/ganga-couple.jpg"
   },
   {
     name: "Taj Ganges & Luxury Lawns",
     city: "Varanasi & Lucknow",
     category: "GRAND BANQUET GROUNDS",
-    description: "Expansive manicured outdoor lawns designed for multi-thousand guest celebrations, heavy stage LED wall installations, and dual drone coverage.",
+    description: "Expansive manicured lawns for multi-thousand guest celebrations with stage LED and drone coverage.",
     image: "/images/jaimala-stage.jpg"
   }
 ];
@@ -1125,7 +1125,7 @@ export interface TestimonialItem {
 
 export const testimonials: TestimonialItem[] = [
   {
-    quote: "OM Media didn't just record our wedding—they made us feel like stars in our own cinematic classic. Watching our highlight film brings tears of joy every single time. Their team's respect for our Vedic rituals was exceptional.",
+    quote: "OM Media didn't just record our wedding—they made us feel like stars in our own cinematic classic. Their team's respect for our Vedic rituals was exceptional.",
     name: "Devika & Aaditya",
     occasion: "ROYAL VARANASI WEDDING",
     location: "VARANASI, UP",
@@ -1133,7 +1133,7 @@ export const testimonials: TestimonialItem[] = [
     rating: 5
   },
   {
-    quote: "Their team's calm demeanour during chaotic moments was incredible. The candid captures and sunrise drone shots over the Ganga ghats are breathtaking. Every family member praised the production quality.",
+    quote: "Their team's calm demeanour during chaotic moments was incredible. The candid captures and sunrise drone shots over the Ganga ghats are breathtaking.",
     name: "Priyal & Rohan",
     occasion: "HERITAGE PRE-WEDDING & WEDDING",
     location: "RAMNAGAR, UP",
@@ -1141,7 +1141,7 @@ export const testimonials: TestimonialItem[] = [
     rating: 5
   },
   {
-    quote: "Production quality at international standards. From the teaser trailer to the handcrafted leather album, every deliverable screams luxury and dedication. Vinod ji's personal coordination gave us absolute peace of mind.",
+    quote: "Production quality at international standards—from the teaser trailer to the handcrafted album, every deliverable screams luxury. Vinod ji's personal coordination gave us absolute peace of mind.",
     name: "Megha & Shashank",
     occasion: "GRAND DESTINATION WEDDING",
     location: "CHUNAR FORT REGION, UP",

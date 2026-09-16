@@ -62,19 +62,7 @@ export default function ProductionCapabilities() {
                   सिर्फ कैमरा नहीं — एक संपूर्ण प्रोडक्शन हाउस
                 </span>
               </h2>
-              <p
-                style={{
-                  fontFamily: "var(--font-ui, sans-serif)",
-                  fontSize: "14px",
-                  lineHeight: 1.8,
-                  color: "var(--muted)",
-                  maxWidth: 580,
-                  margin: 0,
-                  fontWeight: 300,
-                }}
-              >
-                We do not outsource gear or rely on middleman rental agencies. OM Media &amp; Productions maintains a full in-house fleet of cinema rigs, 32ft heavy cranes, live broadcast mixers, and stage LED displays.
-              </p>
+
             </div>
 
             <div
@@ -110,7 +98,7 @@ export default function ProductionCapabilities() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))",
           gap: "18px",
         }}
         role="list"

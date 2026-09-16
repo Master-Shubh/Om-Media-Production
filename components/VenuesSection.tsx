@@ -120,19 +120,7 @@ export default function VenuesSection() {
               Spaces brought to <i>Cinema.</i>
             </h2>
 
-            <p
-              style={{
-                fontFamily: "var(--font-ui, sans-serif)",
-                fontSize: "14px",
-                lineHeight: 1.8,
-                color: "var(--muted)",
-                maxWidth: 620,
-                margin: 0,
-                fontWeight: 300,
-              }}
-            >
-              From sacred stone ghats of the Ganga to ancient fort ramparts and expansive destination lawns, our multi-camera cinema and crane setups are engineered specifically for historic Indian wedding venues.
-            </p>
+
           </div>
 
           <Link href="/contact" className="text-link">
@@ -148,7 +136,7 @@ export default function VenuesSection() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))",
           gap: "20px",
         }}
       >

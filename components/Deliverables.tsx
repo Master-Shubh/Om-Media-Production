@@ -80,18 +80,7 @@ export default function Deliverables() {
             </span>
           </h2>
 
-          <p
-            style={{
-              fontFamily: "var(--font-ui, sans-serif)",
-              fontSize: "14px",
-              lineHeight: 1.8,
-              color: "var(--muted)",
-              margin: 0,
-              fontWeight: 300,
-            }}
-          >
-            No ambiguous promises. Every film cut, high-resolution still, and handcrafted keepsake is meticulously defined and delivered with archival precision.
-          </p>
+
         </div>
       </Reveal>
 
@@ -99,7 +88,7 @@ export default function Deliverables() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))",
           gap: "20px",
         }}
       >
@@ -285,9 +274,7 @@ export default function Deliverables() {
             gap: 14,
           }}
         >
-          <span style={{ fontSize: "13px", color: "var(--muted)", fontWeight: 300 }}>
-            Every deliverable is tailored to your celebration timeline and venue architecture.
-          </span>
+
           <Link href="/packages" className="btn outline">
             EXPLORE COLLECTIONS &amp; DELIVERABLES · सभी पैकेज देखें →
           </Link>

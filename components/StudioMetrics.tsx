@@ -56,7 +56,7 @@ export default function StudioMetrics() {
             maxWidth: "var(--max-w)",
             margin: "0 auto",
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(220px, 100%), 1fr))",
             gap: "clamp(24px, 3vw, 40px)",
           }}
         >

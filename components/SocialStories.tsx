@@ -9,7 +9,7 @@ export default function SocialStories() {
     <section
       className="social-stories-section"
       style={{
-        padding: "120px 24px",
+        padding: "clamp(60px, 9vw, 120px) 24px",
         backgroundColor: "var(--bg-black, #080808)",
         position: "relative",
         overflow: "hidden",
