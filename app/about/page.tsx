@@ -38,22 +38,23 @@ export default function AboutPage() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center" }}>
           <div style={{ position: "relative", minHeight: 480, borderRadius: 6, overflow: "hidden", border: "1px solid rgba(183, 154, 104, 0.25)" }}>
             <img
-              src="/images/varanasi-dawn.jpg"
-              alt="Ancient Varanasi Ganga Ghats at sunrise — Studio Heritage"
+              src="/images/founder-vinod-kumar.jpg"
+              alt="Vinod Kumar — Founder & Principal Cinematographer, OM Media & Productions"
               style={{
                 position: "absolute",
                 inset: 0,
                 width: "100%",
                 height: "100%",
                 objectFit: "cover",
-                filter: "brightness(0.85)",
+                objectPosition: "top center",
+                filter: "brightness(0.92) contrast(1.05)",
               }}
             />
             <div
               style={{
                 position: "absolute",
                 inset: 0,
-                background: "linear-gradient(to top, rgba(6,6,7,0.92) 0%, rgba(6,6,7,0.3) 60%, transparent 100%)",
+                background: "linear-gradient(to top, rgba(6,6,7,0.94) 0%, rgba(6,6,7,0.3) 60%, transparent 100%)",
               }}
             />
             <div style={{ position: "absolute", bottom: 28, left: 28, right: 28 }}>
@@ -69,13 +70,13 @@ export default function AboutPage() {
                   marginBottom: 6,
                 }}
               >
-                STUDIO BASE &amp; ATELIER
+                FOUNDER &amp; CINEMA DIRECTOR
               </span>
               <p style={{ fontFamily: "var(--font-display)", fontSize: 24, color: "var(--ivory)", margin: "0 0 4px 0" }}>
-                {siteConfig.location.city}, {siteConfig.location.state}
+                Vinod Kumar
               </p>
-              <span style={{ fontSize: 12, color: "rgba(244, 240, 232, 0.6)", fontFamily: "var(--font-ui)" }}>
-                {siteConfig.location.address}
+              <span style={{ fontSize: 12, color: "rgba(244, 240, 232, 0.7)", fontFamily: "var(--font-ui)" }}>
+                {siteConfig.location.city}, {siteConfig.location.state} · Sarnath Atelier
               </span>
             </div>
           </div>

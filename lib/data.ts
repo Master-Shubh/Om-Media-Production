@@ -496,11 +496,11 @@ export interface HeritageVenue {
 
 export const heritageVenues: HeritageVenue[] = [
   {
-    name: "Sandstone Ganga Ghats",
+    name: "Ganga Ghats & Namo Ghat",
     city: "Varanasi",
     category: "SACRED RIVERFRONT",
-    description: "Ancient stone steps, morning Ganga mist, and floating diyas creating an incomparable ceremony atmosphere.",
-    image: "/images/varanasi-dawn.jpg"
+    description: "Ancient stone steps, Namo Ghat sculptures, and floating diyas creating an incomparable ceremony atmosphere.",
+    image: "/images/real-namo-ghat.jpg"
   },
   {
     name: "BrijRama & River Palaces",
@@ -674,14 +674,14 @@ export const portfolioGallery: PortfolioItem[] = [
   },
   {
     id: "om-p-10",
-    title: "The Quiet Bridal Glance",
+    title: "Red Lace Grace & Blossoms",
     category: "Portraits",
     categoryDisplay: "FINE-ART PORTRAIT",
     location: "Varanasi, UP",
-    venue: "Palace Arches",
-    image: "/images/bride-varanasi.jpg",
+    venue: "Studio Atelier",
+    image: "/images/real-red-saree-portrait.jpg",
     aspect: "portrait",
-    caption: "A contemplative glance through royal sandstone jharokhas before stepping out for the Varmala.",
+    caption: "Fine-art portrait celebrating crimson lace elegance and delicate white blossoms.",
     projectSlug: "royal-varanasi-heritage-wedding"
   },
   {
@@ -710,26 +710,26 @@ export const portfolioGallery: PortfolioItem[] = [
   },
   {
     id: "om-p-13",
-    title: "Generations United in Joy",
-    category: "Family",
-    categoryDisplay: "FAMILY HERITAGE",
-    location: "Prayagraj, UP",
-    venue: "Heritage Estate Lawn",
-    image: "/images/haldi-ceremony.jpg",
-    aspect: "landscape",
-    caption: "Grandparents, parents, and siblings sharing spontaneous laughter around the bride.",
+    title: "Laughter in Turmeric",
+    category: "Rituals",
+    categoryDisplay: "HALDI RITUAL",
+    location: "Varanasi, UP",
+    venue: "Heritage Courtyard",
+    image: "/images/real-haldi-candid.jpg",
+    aspect: "portrait",
+    caption: "Joyous laughter and pure blessings amidst the vibrant turmeric celebration.",
     projectSlug: "royal-varanasi-heritage-wedding"
   },
   {
     id: "om-p-14",
-    title: "Assi Ghat Dawn Panorama",
+    title: "Namo Ghat Twilight Perspective",
     category: "Venues",
     categoryDisplay: "HERITAGE VENUE",
     location: "Varanasi, UP",
-    venue: "Ganga Ghats & Chet Singh Fort",
-    image: "/images/varanasi-dawn.jpg",
-    aspect: "landscape",
-    caption: "Drone panoramic perspective of Varanasi ghats illuminated by the first golden rays of dawn.",
+    venue: "Namo Ghat, Varanasi",
+    image: "/images/real-namo-ghat.jpg",
+    aspect: "portrait",
+    caption: "Iconic Namaste folded hands against the twilight sky at Namo Ghat Varanasi.",
     projectSlug: "dawn-on-assi-ghat-pre-wedding"
   },
   {
@@ -828,8 +828,8 @@ export const storyProjects: StoryProject[] = [
     ],
     photoGallery: [
       { src: "/images/ganga-couple.jpg", caption: "First golden rays illuminating the sacred riverfront" },
-      { src: "/images/varanasi-dawn.jpg", caption: "Chet Singh Fort backdrop framed with aerial perspective" },
-      { src: "/images/mandap-details.jpg", caption: "Intimate portrait in the historic stone courtyards" }
+      { src: "/images/real-namo-ghat.jpg", caption: "Iconic Namo Ghat folded hands against the twilight sky" },
+      { src: "/images/varanasi-dawn.jpg", caption: "Chet Singh Fort backdrop framed with aerial perspective" }
     ],
     deliverablesDelivered: [
       "3-Minute 4K Narrative Pre-Wedding Film",
