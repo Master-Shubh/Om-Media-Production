@@ -209,7 +209,7 @@ export const siteConfig: SiteConfig = {
   contact: {
     phone: "8853104540",
     phoneDisplay: "+91 88531 04540",
-    email: "MR.VINODKR.8853@GMAIL.COM",
+    email: "ommediaproductions@gmail.com",
     whatsapp: "918853104540"
   },
   location: {
@@ -232,7 +232,7 @@ Add a new object to `portfolioStories` in `lib/data.ts` with couple names, venue
 - 🏛️ **Studio Address:** Sarnath, Varanasi, Uttar Pradesh 221007, India
 - 📞 **Direct Phone:** [+91 88531 04540](tel:+918853104540)
 - 💬 **WhatsApp Priority:** [+91 88531 04540](https://wa.me/918853104540)
-- ✉️ **Direct Email:** [MR.VINODKR.8853@GMAIL.COM](mailto:MR.VINODKR.8853@GMAIL.COM)
+- ✉️ **Direct Email:** [ommediaproductions@gmail.com](mailto:ommediaproductions@gmail.com)
 - 📷 **Instagram:** [@Om_Media_and_Product](https://instagram.com/Om_Media_and_Product)
 
 ---

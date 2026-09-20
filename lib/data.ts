@@ -53,7 +53,7 @@ export const siteConfig: SiteConfig = {
   contact: {
     phone: "8853104540",
     phoneDisplay: "+91 88531 04540",
-    email: "MR.VINODKR.8853@GMAIL.COM",
+    email: "ommediaproductions@gmail.com",
     whatsapp: "918853104540"
   },
   socials: {
@@ -158,7 +158,7 @@ export const primaryServices: ServiceDepartment[] = [
       "Heirloom lay-flat album selection suite"
     ],
     approach: "We believe the most poignant memories happen in the quiet moments between staged events—a father's silent pride, spontaneous laughter during haldi, and the holy reverence of the pheras.",
-    image: "/images/bride-varanasi.jpg",
+    image: "/images/sacred-pheras.jpg",
     faqs: [
       {
         question: "How many photographs do we receive?",
